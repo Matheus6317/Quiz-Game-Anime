@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+*{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+body{
+    background: linear-gradient(to right, #0c0d0d, #292e30)
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 500px;
+}
+
+.main{
+    display: grid;
+    font-size: 50px;
+    color: white;
+}
+
+.introduction{
+    display: grid;
+    gap: 50px;
+}
+
+.command{
+    color: rgb(170, 170, 170);
+}
+
+a{
+    text-decoration: none;
+}
+
+.choices{
+    display: grid;
+    gap: 50px;
+}
+
+.a1{
+    color: white;
+    border: 2px solid;
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+    background: linear-gradient(to right, black, orange);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.a1:hover{
+    transform: scale(1.05);
+}
+
+.a2{
+    color: white;
+    border: 2px solid;
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+    background: linear-gradient(to right, white, red);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.a2:hover{
+    transform: scale(1.05);
+}
+
+img{
+    width: 30px;
+}
+

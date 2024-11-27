@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Rubik+Pixels&display=swap');
+
+*{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 200px;
+}
+
+body{
+    background: linear-gradient(to right, #0c0d0d, #292e30)
+}
+
+.ask{
+    font-size: 30px;
+    border: 2px solid;
+    width: 420px;
+    height: 250px;
+    border: none;
+    color: white;
+}
+
+.rule{
+    margin-top: 100px;
+    width: 400px;
+    height: 10px;
+    border-radius: 30px;
+}
+
+.questions{
+    margin-bottom: 50px;
+    color: #606666;
+    font-size: 18.5px;
+}
+
+.answer{
+    display: grid;
+    gap: 50px;
+}
+
+.char{
+    border: 2px solid;
+    background-color: whitesmoke;
+    color: #0c0d0d;
+    width: 30px;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*trabalhando cada alternativa isoladamente: */
+.answer01{
+    display: flex;
+    border: 2px solid;
+    width: 350px;
+    height: 50px;
+    text-align: start;
+    background: linear-gradient(to right, #0c0d0d, #292e30);
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.5s;
+}
+.answer01:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.answer02{
+    display: flex;
+    border: 2px solid;
+    width: 350px;
+    height: 50px;
+    text-align: start;
+    background: linear-gradient(to right, #0c0d0d, #292e30);
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.5s;
+}
+.answer02:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.answer03{
+    display: flex;
+    border: 2px solid;
+    width: 350px;
+    height: 50px;
+    text-align: start;
+    background: linear-gradient(to right, #0c0d0d, #292e30);
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.5s;
+}
+.answer03:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.answer04{
+    display: flex;
+    border: 2px solid;
+    width: 350px;
+    height: 50px;
+    text-align: start;
+    background: linear-gradient(to right, #0c0d0d, #292e30);
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.5s;
+}
+.answer04:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.description{
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Hubot Sans", sans-serif;
+    
+}
+.description:hover{
+    cursor: cell;
+}
+
+.alternative{
+    opacity: 0;
+}

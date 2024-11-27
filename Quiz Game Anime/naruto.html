@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Anime | Naruto</title>
+
+    <link rel="stylesheet" href="style/naruto.css">
+    <link rel="icon" href="icon/bandana.png">
+</head>
+<body>
+    <main>
+        <div class="question">
+            <div class="questions">
+                <span class="quant">Pergunta <span id="num"></span> de 10</span>
+            </div>
+            <div class="ask">
+                <!--Utilizar de uma borda para menejar a pergunta-->
+                Considerando apenas os eventos de Naruto Clássico até o Shippuden, quantas guerras ninjas aconteceram na obra ?
+            </div>
+            <input type="range" min="1" max="10" value="1" class="rule" id="rule">
+        </div>
+        <div class="answer">
+            <div class="answer01" id="answer01">
+                <span class="char">A</span>
+
+                <label for="same01" class="description">3</label> 
+                <input type="radio" name="same" class="alternative" id="same01">
+            </div>
+
+            <div class="answer02" id="answer02">
+                <span class="char">B</span>
+
+                <label for="same02" class="description">2</label> 
+                <input type="radio" name="same" class="alternative" id="same02">
+            </div>
+
+            <div class="answer03" id="answer02">
+                <span class="char">C</span>
+
+                <label for="same03" class="description">4</label> 
+                <input type="radio" name="same" class="alternative" id="same03">
+            </div>
+
+            <div class="answer04" id="answer04">
+                <span class="char">D</span>
+
+                <label for="same04" class="description">7</label> 
+                <input type="radio" name="same" class="alternative" id="same04">
+            </div>
+        </div>
+    </main>
+    <script src="script/naruto.js"></script>
+</body>
+</html>
